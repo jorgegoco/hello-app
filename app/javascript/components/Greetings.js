@@ -9,7 +9,7 @@ const Greetings = () => {
         <h2>{randomGreeting.error.stack}</h2>
       ) : null}
       {randomGreeting.successful ? (
-        <h2>{randomGreeting.name.message}</h2>
+        <h1>{randomGreeting.name.message}</h1>
       ) : null}
     </>
   );
